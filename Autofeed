@@ -1,0 +1,37 @@
+totalWeight = 0
+def function1():
+for i in range(0,5):
+    foodWeight =  int(input("Enter the food weight"))
+    while foodWeight < 0 or foodWeight >200:
+        print("Invalid, a single conatiner can only hold up to 200g")
+        foodWeight = int(input("Re enter the food weigjht"))
+  totalWeight = totalWeight + foodWeight 
+
+def function2()
+print("Please enter the size of your dog: small, medium or large")
+dog_size = input()
+
+def function3(dogsize)
+if dog_size == "small"  and totalWeight  > 110 and totalWeight  < 140:
+    WeightMessage = "The weight of food is suitable for your small dog"
+
+if dog_size == "medium" and totalWeight > 330 and totalWeight < 440:
+        WeightMessage = "This weight of food is suitable for your medium dog"
+if dog_size == "large" and totalWeight > 690 and totalWeight < 900:
+     WeightMessage =  "This weight of good is suitable for your large dog."
+else:
+     WeightMessage = "This weight of food is not recommended for the size of your dog"
+
+
+def function4(totalWeight)
+averageWeight = totalWeight / 5
+round(averageWeight , 1)
+
+
+def function5(foodWeight)
+for i in range(5):
+     print(foodWeight)
+     print("The total weight",totalWeight)
+     print("The average weight is",averageWeight)
+     print("")
+
